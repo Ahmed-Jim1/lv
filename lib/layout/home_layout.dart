@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:lv/modules/cart_empty.dart';
 import 'package:lv/shared/styles/color.dart';
 
 class HomeLayout extends StatefulWidget {
@@ -103,6 +104,11 @@ class _HomeLayoutState extends State<HomeLayout> {
                       ),
                       child: IconButton(
                         onPressed: (){
+                          setState(() {
+                            Navigator.push(context,
+                                MaterialPageRoute(
+                                    builder: (context)=> CartEmbty()));
+                          });
 
                         },
                         icon: Icon(Icons.shopping_cart,color: Colors.white,),
