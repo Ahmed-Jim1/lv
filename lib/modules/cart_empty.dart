@@ -28,7 +28,7 @@ class CartEmbty extends StatelessWidget {
               ),
               SizedBox(height: 100,),
 
-              Center(child: Image.asset('lib/assets/Frame.png')),
+              Center(child: Image.asset('assets/images/Frame.png')),
               SizedBox(height: 20,),
 
               Column(

@@ -63,7 +63,7 @@ class _HomeLayoutState extends State<HomeLayout> {
                 child: Row(
                   children: [
                     Container(
-                      width: 250,
+                      width: MediaQuery.of(context).size.width*.70,
                       height: 50,
 
                       decoration: BoxDecoration(
@@ -148,6 +148,326 @@ class _HomeLayoutState extends State<HomeLayout> {
                   ),
                 ),
               ),
+              SizedBox(height: 5,),
+              Container(
+                height: MediaQuery.of(context).size.height*.55,
+                width: double.infinity,
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: GridView(
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      mainAxisSpacing: 20,
+
+                      crossAxisSpacing: 20,
+                    ),
+                    children: [
+                    Stack(
+                  children: [
+                  Padding(
+                  padding: const EdgeInsets.only(left: 10,right: 10,top: 20),
+                  child: GridTile(
+                      footer:Column(crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              SizedBox(width: 5,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text('GARDENIA PLANT',style: TextStyle(
+                                      fontSize: 11,
+                                      color: Colors.black
+                                  ),),
+                                  Text('70 LE',style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold
+                                  ),),
+                                ],
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 5,),
+
+                          Container(decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15) ,
+                            color: Color(0xFF1ABC00),
+                          ),
+                            child: MaterialButton(
+                              onPressed: (){},
+                              height: 30,
+                              child: Text(
+                                'Add To Cart',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                ),
+                              ),
+                            ),
+                            height: 35,width: 150,
+
+                          ),
+                        ],
+                      )
+                      ,child:Container(
+                    height: double.infinity,
+                    width: double.infinity,
+
+                    color: Colors.transparent,) ),
+              ),
+              Container(
+                  height: 50,width: 50,color: Colors.red,),
+
+            ],
+          ),
+                    Stack(
+                  children: [
+                  Padding(
+                  padding: const EdgeInsets.only(left: 10,right: 10,top: 20),
+                  child: GridTile(
+                      footer:Column(crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              SizedBox(width: 5,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text('GARDENIA PLANT',style: TextStyle(
+                                      fontSize: 11,
+                                      color: Colors.black
+                                  ),),
+                                  Text('70 LE',style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold
+                                  ),),
+                                ],
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 5,),
+
+                          Container(decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15) ,
+                            color: Color(0xFF1ABC00),
+                          ),
+                            child: MaterialButton(
+                              onPressed: (){},
+                              height: 30,
+                              child: Text(
+                                'Add To Cart',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                ),
+                              ),
+                            ),
+                            height: 35,width: 150,
+
+                          ),
+                        ],
+                      )
+                      ,child:Container(
+                    height: double.infinity,
+                    width: double.infinity,
+
+                    color: Colors.transparent,) ),
+              ),
+              Container(
+                  height: 50,width: 50,color: Colors.red,),
+
+            ],
+          ),
+                    Stack(
+                  children: [
+                  Padding(
+                  padding: const EdgeInsets.only(left: 10,right: 10,top: 20),
+                  child: GridTile(
+                      footer:Column(crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              SizedBox(width: 5,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text('GARDENIA PLANT',style: TextStyle(
+                                      fontSize: 11,
+                                      color: Colors.black
+                                  ),),
+                                  Text('70 LE',style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold
+                                  ),),
+                                ],
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 5,),
+
+                          Container(decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15) ,
+                            color: Color(0xFF1ABC00),
+                          ),
+                            child: MaterialButton(
+                              onPressed: (){},
+                              height: 30,
+                              child: Text(
+                                'Add To Cart',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                ),
+                              ),
+                            ),
+                            height: 35,width: 150,
+
+                          ),
+                        ],
+                      )
+                      ,child:Container(
+                    height: double.infinity,
+                    width: double.infinity,
+
+                    color: Colors.transparent,) ),
+              ),
+              Container(
+                  height: 50,width: 50,color: Colors.red,),
+
+            ],
+          ),
+                    Stack(
+                  children: [
+                  Padding(
+                  padding: const EdgeInsets.only(left: 10,right: 10,top: 20),
+                  child: GridTile(
+                      footer:Column(crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              SizedBox(width: 5,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text('GARDENIA PLANT',style: TextStyle(
+                                      fontSize: 11,
+                                      color: Colors.black
+                                  ),),
+                                  Text('70 LE',style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold
+                                  ),),
+                                ],
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 5,),
+
+                          Container(decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15) ,
+                            color: Color(0xFF1ABC00),
+                          ),
+                            child: MaterialButton(
+                              onPressed: (){},
+                              height: 30,
+                              child: Text(
+                                'Add To Cart',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                ),
+                              ),
+                            ),
+                            height: 35,width: 150,
+
+                          ),
+                        ],
+                      )
+                      ,child:Container(
+                    height: double.infinity,
+                    width: double.infinity,
+
+                    color: Colors.transparent,) ),
+              ),
+              Container(
+                  height: 50,width: 50,color: Colors.red,),
+
+            ],
+          ),
+                    Stack(
+                  children: [
+                  Padding(
+                  padding: const EdgeInsets.only(left: 10,right: 10,top: 20),
+                  child: GridTile(
+                      footer:Column(crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              SizedBox(width: 5,),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text('GARDENIA PLANT',style: TextStyle(
+                                      fontSize: 11,
+                                      color: Colors.black
+                                  ),),
+                                  Text('70 LE',style: TextStyle(
+                                      fontSize: 10,
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold
+                                  ),),
+                                ],
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 5,),
+
+                          Container(decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15) ,
+                            color: Color(0xFF1ABC00),
+                          ),
+                            child: MaterialButton(
+                              onPressed: (){},
+                              height: 30,
+                              child: Text(
+                                'Add To Cart',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                ),
+                              ),
+                            ),
+                            height: 35,width: 150,
+
+                          ),
+                        ],
+                      )
+                      ,child:Container(
+                    height: double.infinity,
+                    width: double.infinity,
+
+                    color: Colors.transparent,) ),
+              ),
+                    Container(
+                  height: 50,width: 50,color: Colors.red,),
+
+            ],
+          ),
+                    ],
+                  ),
+                ),
+              )
+
+
 
 
 
